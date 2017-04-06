@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contaminacion ambiental</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/App3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/calen-12.jpg','imagenes/contm1.png','imagenes/Con2.png')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Datos personales del alumno</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Imagen de contaminacion</h1>
+<div>
+<p>No tendremos una sociedad si destruimos el medio ambiente</p>
+<br>
+</div>
+<div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/calen-12.jpg',1)"><img src="imagenes/contamina2.png" width="600" height="399" id="Image17"></a></div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> Definicion</h2>
+<p>Que es la contaminacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Tipos de contaminacion</h2>
+<p> Se muestran los tipos de contaminacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Consecuencias</h2>
+<p>Consecuencias enfocado al calentamiento global</p>
+  </a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Reciclaje</h2>
+<p>Que es y como se clasifica</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Medidas para combatirla</h2>
+<p>Que podemos hacer para combatir este gran ploblema</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Mi entorno</h2>
+<p>Que tan contaminado esta mi entorno </p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed"> 
+<div>
+<img src="imagenes/mdpi.png" width="79" height="77">
+</div>
+<div>
+<h4> Aplicacion uno </h4>
+<h4> Octavio Leon Amador </h4>
+<div class="footer_social_button">
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <p><a href="https://www.facebook.com/octaviano.leo" target="_self"><img src="imagenes/REDES SOCIALES/facebook.png" title="facebook" alt="facebook" /></a> <a href="https://www.instagram.com/tavo_leon2012/" target="_self"><img src="imagenes/REDES SOCIALES/intragran.png" title="flickr" alt="flickr" /></a> <a href="https://web.skype.com/es/" target="_self"><img src="imagenes/REDES SOCIALES/skipe.png" title="twitter" alt="twitter" /></a> <a href="https://www.youtube.com/channel/UCIhsKm4pC4CiEHwo-znR76g" target="_self"><img src="imagenes/REDES SOCIALES/youtube.png" title="youtube" alt="youtube" /></a> <a href="https://mail.google.com/mail/u/0/#inbox" target="_self"><img src="imagenes/REDES SOCIALES/gmail.png" title="rss" alt="rss" /></a></p>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</div>
+<p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>QUE ES LA CONTAMINACION</h1>
+     </div>
+    <div data-role="content" align="center">
+     <div>
+       <p><img src="imagenes/basura.png" width="0" height="0" alt="hola"></p>
+       <p><img src="imagenes/basura.png" width="0" height="0" alt="jghfds"></p>
+       <p><img src="imagenes/basura1.png" width="229" height="281" alt="ol"></p>
+       <p>La <strong>contaminación</strong> es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso. El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia quimica  </p>
+     </div>
+   </div>
+   <div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h2>mas informacion</h2>
+        <h2>Es siempre una alteración negativa del estado natural del <a href="https://es.wikipedia.org/wiki/Medio_ambiente" title="Medio ambiente">medio</a>, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de <a href="https://es.wikipedia.org/wiki/Impacto_ambiental" title="Impacto ambiental">impacto ambiental</a>.</h2>
+        <center>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/contm1.png',1)"><img src="imagenes/Con2.png" name="Image14" width="300" height="300" id="Image14"></a>
+        </center>
+        <h2>La contaminación es uno de los males de la actualidad, ya que el deterioro constante del medio ambiente a través de sustancias perjudiciales o por el aumento descontrolado de las propias del ambiente, estas sustancias alteran y producen un desequilibrio  o resultado nocivo para el ecosistema.</h2>
+        <center>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/Con2.png',1)"><img src="imagenes/con3.png" width="293" height="315" id="Image15"></a>
+        </center>
+        <h2>La contaminación puede clasificarse según el tipo de fuente de donde proviene, o por la forma de contaminante que emite o medio que contamina. Existen muchos agentes contaminantes entre ellos las sustancias químicas, los residuos urbanos, el petróleo, o las radiaciones ionizantes. Además existen muchos contaminantes gaseosos que juegan un papel importante en diferentes fenómenos atmosféricos, como la generación de lluvia ácida, el debilitamiento de la capa de ozono, y el cambio climático.</h2>
+    </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion Tres, OLA</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Tipos de contaminacion</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+      <p><img src="imagenes/basura.png" width="280" height="280"></p>
+      <h2><a href="http://www.tiposdecontaminacion.com/2013/01/06/tipos-de-contaminacion/" title="Permalink to Tipos de Contaminación" rel="bookmark">Tipos de Contaminación</a></h2>
+      <div>
+        <div></div>
+        <p>Diferentes <a href="https://web.archive.org/web/20130421090827/http://tiposdecontaminacion.com/">tipos de contaminación </a>están clasificados por su parte que afectan o resultan por las causas de contaminación particulares. Cada uno de estos tipos tiene sus propias causas y consecuencias distintivas. El estudio de la <a href="http://www.contaminacionambiental.org/">contaminación ambiental</a> ayuda a entender los conceptos básicos con mayor detalle y producir protocolos para los tipos específicos. En consecuencia, los principales tipos de contaminación son:</p>
+        <ul>
+          <li><em>Contaminación del Agua</em></li>
+          <li><em>Contaminación del Aire</em></li>
+          <li><em>Contaminación del Suelo</em></li>
+          <li><em>Contaminación Térmica</em></li>
+          <li><em>La Contaminación radiactiva</em></li>
+          <li><em>Contaminación Acústica</em></li>
+          <li><em>Contaminación Lumínica</em></li>
+        </ul>
+      </div>
+      <p>&nbsp;</p>
+  </div>
+  </div>
+    <div>
+    <div data-role="collapsible" data-content-theme="false">
+    <center>
+    </center>
+    <h2>imagenes</h2>
+    <div>
+      <h2>&nbsp;</h2>
+      <p><img src="imagenes/pngs/contaminación-en-China11.jpg" width="394" height="243" alt="ijp"></p>
+    </div>
+    </div>
+    </div>
+    
+    <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion Tres- OLA</h4>
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CONSECUENCIAS</h1>
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   <div data-role="collapsible" data-content-theme="false">
+   <h2>Sus consecuencias</h2>
+      <h2>La contaminación ambiental deteriora cada vez mas a nuestro planeta y a nosotros mismos pues según investigaciones al respirar el aire contaminado esto afecta nuestra salud cardiovascular
+por lo que normas estrictas de aire limpio contribuirían a una mejor salud con efectos en gran escala
+</h2>
+   
+   <img src="imagenes/consecuencia.png" width="50%" height="50%">
+   
+   <div>
+      <h2>Otra consecuencia es el debilitamiento de la capa de ozono, que protege a los seres vivos de la radiación ultravioleta del Sol, debido a la destrucción del ozono estratosférico y esto provoca el calentamiento global.La contaminacion al medio atenta contra la vida de plantas, animales y personas, genera daños físicos en los individuos, convierte en un elemento no consumible al agua</h2>
+      
+      <img src="imagenes/arboles.png" width="50%" height="50%">
+      
+      <h2>y hace que en los suelos contaminados no sea posible la siembra. Esto afecta  a demás el clima y las actividades realizadas por el ser humano dañandolo y perjudicándole.</h2>
+      
+   </div>
+   </div>
+   </div>
+  <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4>Aplicacion Tres- OLA</h4>
+   </div>
+  </div>
+ </div>
+ 
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Formas de reciclar</h1>
+ </div>
+ <div data-role="content" align="center">
+    <p><img src="imagenes/arboles.png" width="50%" height="50%"></p>
+    <p><img src="imagenes/pngs/600px-stop_sign_mutcdsvg.png" width="307" height="307" alt="imj"> </p>
+    <p><img src="imagenes/pngs/customLogo.png" width="240" height="295" alt="7hki"></p>
+    <div>
+      <div data-role="collapsible" data-content-theme="false">
+    <h2> VISOR DE IMAGENES </h2>
+    <!-- aqui va el visor-->
+    <!-- Start WOWSlider.com --><!-- End WOWSlider.com --> 
+    <p>
+    <div></div>
+    </p>
+    <iframe src="visor/indexwow.html" style="width:960px;height:300px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+    
+    <div data-role="collapsible" data-content-theme="false">
+      
+      <h2>ALGUNAS MEDIDAS PREVENTIVAS PARA EVITAR LA CONTAMINACIÓN </h2>
+    
+    
+    
+     <img src="imagenes/prevenir.png" width="50%" height="50%">
+  
+  
+      <h2>•	No quemar ni talar plantas
+</h2>
+      <h2>•	Controlar el uso de fertilizantes y pesticidas        </h2>
+      <h2>•	No botar basura en lugares inapropiados        </h2>
+      <h2>•	Regular el servicio de aseo urbano        </h2>
+      <h2>•	Crear conciencia ciudadana        </h2>
+      <h2>•	Crear vías de desagües para las industrias que no lleguen a los mares ni ríos utilizados para el servicio o consumo del hombre ni animales        </h2>
+      <h2>•	Controlar los derramamientos accidentales de petróleo        </h2>
+      <h2>•	Controlar los relaves mineros </h2>
+      <p>&nbsp;</p>
+    
+  </div>
+    </div>
+  </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Aplicacion Tres- OLA</h4>
+  </div>
+ </div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Como Podemos Prevenirla</h1>
+ </div>
+ <div data-role="content" align="center">
+    <div>
+      <h2>La prevención de la contaminación o control de entrada de contaminación, es una solución de producción, que reduce o elimina la producción de contaminantes, a menudo cambiando compuestos químicos o utilizando procesos menos perjudiciales.
+      La contaminación se puede evitar con las cuatro “erres” de la utilización de recursos:</h2>
+      <h2>- Rechazar: no utilizar        </h2>
+      <h2>- Reducir        </h2>
+      <h2>- Reutilizar        </h2>
+      <h2>- Reciclar </h2>
+      </div>
+      
+      <img src="imagenes/prevenir1.png" width="50%" height="50%">
+      
+      <div>
+      <h2>1.- Cooperación ciudadana en la separación de los desechos domiciliarios, prereciclándolos separándolos en bolsas ad-hoc de acuerdo a la calidad del desecho, vgr: Vidrios, papeles y cartones, metales, plásticos, desechos médicos, desechos naturales. Estos elementos separados, se pueden llevar a receptores que tendrían a disposición las Municipalidades, para que a su vez, sean retirados por las empresas recicladoras.</h2>
+      </div>
+      
+      
+      <img src="imagenes/prevenir2.png" width="50%" height="50%">
+ 
+ 
+ <h2>2.- Iniciativa ciudadana y de las autoridades, para la reforestación de sectores aledaños a la capital, con esto se contribuiría a evitar el avance del desierto a la zona central. Vgr: reforestación de los cerros: Renca, Blanco, San Cristóbal, sectores de Lampa, etc. </h2>
+     </div>
+ <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Aplicacion Tres- OLA</h4>
+   </div>
+   </div>
+   </div>
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Mi entorno</h1>
+  </div>
+  <div data-role="content" align="center">
+  <div>
+      <img src="imagenes/basura.png" width="280" height="280"></div>
+   </div>
+    <div>
+    <div data-role="collapsible" data-content-theme="false">
+    <center>
+     <img src="imagenes/contm2.png" width="280" height="280">
+     </center>
+    <h2> Los principales causantes de la contaminación ambiental son: </h2>
+      <h2>• desechos sólidos domésticos </h2>
+      <h2>• desechos sólidos industriales        </h2>
+      <h2>• exceso de fertilizante y productos químicos        </h2>
+      <h2>• tala        </h2>
+      <h2>• quema</h2>
+      <h2> • basura        </h2>
+      <h2>• el monóxido de carbono de los vehículos</h2>
+      <h2> • desagües de aguas negras o contaminadas al mar o ríos </h2>
+    
+    <img src="imagenes/c.png" width="280" height="280">
+  
+   <div>
+      <h2>Muchas de las causas del deterioro ambiental es debido a : la sobreexplotación , destrucción del hábitat , la contaminación , la erosión y la deforestacion . Estudios realizados dicen que el deterioro del medio ambiente provoca el 21% de los problemas de salud que sufre la población mundial .</h2>
+    </div>
+    </div>
+    </div>
+    
+    <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4>Aplicacion TreS-  OLA</h4>
+    </div>
+  </div>
+</div>
+ 
+</body>
+</html>
